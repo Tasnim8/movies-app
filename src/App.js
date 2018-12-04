@@ -18,12 +18,12 @@ class moviesApp extends React.Component {
     })
   }
 
-  updatemovie= (movie,part) =>{
-   moviesAPI.update(movie,part);
-    moviesAPI.getAll().then((movies)=>{
-      this.setState({movies})
-    })
-  }
+  //updatemovie= (movie,part) =>{
+   //moviesAPI.update(movie,part);
+   // moviesAPI.get().then((movies)=>{
+      //this.setState({movies})
+    //})
+  //}
 
   updateQuery = (query)=>{
     if(query!==''){
